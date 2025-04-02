@@ -32,7 +32,7 @@ def test_path_gen():
 
     #### start simulation
     sim = ins_sim.Sim([fs, fs_gps, fs_mag],
-                      motion_def_path+"//motion_def-3d.csv",
+                      motion_def_path+"//motion_def-circle.csv",
                       ref_frame=1,
                       imu=imu,
                       mode=None,
